@@ -1,6 +1,6 @@
 public class HelloRestController {
   
-  @GetMapping("api/message")
+  @GetMapping("/api/message")
   public String sayHello(){
     return "Welcome to zensar";
   }
