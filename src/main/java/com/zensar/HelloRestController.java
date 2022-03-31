@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloRestController {
   
-  @GetMapping("/api/message")
+  @GetMapping("/hello")
   public String sayHello(){
     return "Welcome to zensar";
   }
